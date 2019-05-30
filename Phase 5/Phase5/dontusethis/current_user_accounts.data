@@ -1,0 +1,13 @@
+admin           AA 000500.00
+mod             AA 000500.00
+standard        FS 000500.00
+buyer           BS 000500.00
+seller          SS 000500.00
+deleteMe	BS 000000.00
+event host      SS 000350.15
+brokeBuyer      BS 000000.00
+brokeSeller     SS 000000.00
+ticketmasterguy SS 000456.00
+reseller        FS 000345.39
+notabot         FS 000123.45
+END

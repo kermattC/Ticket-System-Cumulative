@@ -1,0 +1,14 @@
+06 newseller       SS 000100.00
+02 event host      SS 000000.00
+00 admin           AA 000000.00
+00 standard        FS 000000.00
+00 buyer           BS 000000.00
+00 seller          SS 000000.00
+03 admin event title         admin           001 001.00
+00 admin           AA 000000.00
+03 standard event title      standard        001 001.00
+00 standard        FS 000000.00
+00 buyer           BS 000000.00
+03 seller event title        seller          001 001.00
+00 seller          SS 000000.00
+01 Jude            AA 000000.00

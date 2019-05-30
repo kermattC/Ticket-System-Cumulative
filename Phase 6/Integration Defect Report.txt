@@ -1,0 +1,18 @@
+Issue 1:
+The original phase 3 test script works fine on Matt's computer(Only Linux user), but on mine computer
+and Jude's computer, most of the tests failed. The cause is for some reason, everytime when
+the price number is modified, the transaction fails. We were able to efficiently overcome this issue
+by writing our scripts for our divided part of the work, then Matt will integrate and script into
+his BackEnd.
+
+Issue 2:
+While doing weekly transaction merge, adding each new file to the weekly data file
+appended the first line of the new file to the last line of weekly data file!
+Had to provide command "sed -i -e '$a\' *.data" to prevent this issue and add new file
+strating from a new line.
+
+Issue 3:
+When attempting to compile and run the back end programs from the main directory,
+there was an issue wih the "java" command after compiling the code.
+Researching this problem raised several reasons, and most likely is due to path issues, especially classpath.
+Another path was taken instead, which was to 'cd' into the directory then compile & run the code from there. 

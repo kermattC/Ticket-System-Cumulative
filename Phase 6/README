@@ -1,0 +1,21 @@
+SQA BOIS
+Jude Antony
+Matt Chan
+Zehan Song
+
+TO RUN DAILY SCRIPT
+
+./dailyScript.sh
+if you have permission issues use: 
+chmod 777 dailyScript.sh
+
+
+TO RUN WEEKLY SCRIPT
+
+./weeklyScript.sh
+if you have permission issues, just like above:
+chmod 777 weeklyScript.sh
+
+
+When a script is run the new and updated files are stored in the folder:
+New Data Files
